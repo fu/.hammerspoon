@@ -28,7 +28,7 @@ obj.canvas = hs.canvas.new({
     h = 800
 }):show()
 
-obj.canvas:level(hs.canvas.windowLevels.desktop) -- overlay) -- desktop) --
+obj.canvas:level(hs.canvas.windowLevels.overlay) -- overlay) -- desktop) --
 obj.interface = hs.network.primaryInterfaces()
 
 obj.rings = {

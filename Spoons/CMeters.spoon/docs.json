@@ -15,22 +15,22 @@
     "stripped_doc" : [
 
     ],
+    "desc" : "",
     "Deprecated" : [
 
     ],
-    "desc" : "",
     "type" : "Module",
     "Constructor" : [
 
     ],
-    "items" : [
+    "doc" : "",
+    "Field" : [
 
     ],
-    "doc" : "",
     "Command" : [
 
     ],
-    "Field" : [
+    "items" : [
 
     ],
     "Method" : [
