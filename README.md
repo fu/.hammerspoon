@@ -2,13 +2,14 @@
 
 Spoons for the superb [hammerspoon](https://www.hammerspoon.org) project.
 
+
 ## CMeters
 
 ![hammerspoon cmeters](cmeters.jpg "CMeters")
 
 
 Creates circles on desktop (or overlay)
-requires **Python 3** to be installed and **psutils**, i.e. after install [Python 3](https://www.python.org/downloads/) do
+requires **Python 3** to be installed and **psutils**, i.e. after installing [Python 3](https://www.python.org/downloads/) type
 
 `
 pip3 install psutils
@@ -20,9 +21,9 @@ Please note that drawing too many rings might drain your cpu.
 
 Currently supported are *cpu* and *network* monitors.
 
-You might need to adjust max and min values for network traffic in order to see something.
+You might need to adjust max and min values in value_range for network traffic in order to see something.
 
-### Ring example
+### Ring config example
 Rings are part of obj.rings in init.lua, e.g.
 ```lua
 obj.rings = {
