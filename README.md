@@ -17,6 +17,8 @@ Please note that drawing too many rings might drain your cpu.
 
 Currently supported are *cpu* and *network* monitors.
 
+You might need to adjust max and min values for network traffic in order to see something.
+
 ## CMover
 
 Another window mover that supports multiple monitors.
