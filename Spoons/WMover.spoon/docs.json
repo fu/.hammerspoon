@@ -1,0 +1,41 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "desc" : "Windows mover - aka yet another window arranger",
+    "Constructor" : [
+
+    ],
+    "doc" : "Windows mover - aka yet another window arranger",
+    "Method" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+
+    ],
+    "Command" : [
+
+    ],
+    "name" : "WMover"
+  }
+]
