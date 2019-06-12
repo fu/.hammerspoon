@@ -92,49 +92,49 @@ obj.rings = {
         max = 100
      }
     },
-    -- network_in = {
-    --     radius = 100,
-    --     startAngle = 0,
-    --     endAngle = 180,
-    --     meterType = 'network',
-    --     meterTypeSubType = 'in',
-    --     refreshEvery = 'second',
-    --     baseLineAlpha = 0.5,
-    --     stepsToBaseLineAlpha = 5,
-    --     minWidth = 4,
-    --     maxWidth = 40,
-    --     color = "#3288bd",
-    --     center = {
-    --         x = 200,
-    --         y = 520
-    --     },
-    --     value_range = { -- net in MB
-    --        min = 0,
-    --        max = 11
-    --     }
-    -- },
-    -- network_out = {
-    --     radius = 100,
-    --     startAngle = 180,
-    --     endAngle = 360,
-    --     meterType = 'network',
-    --     meterTypeSubType = 'out',
-    --     refreshEvery = 'second',
-    --     baseLineAlpha = 0.5,
-    --     stepsToBaseLineAlpha = 5,
-    --     minWidth = 4,
-    --     maxWidth = 40,
-    --     color = "#d53e4f",
-    --     center = {
-    --         x = 200,
-    --         y = 520
-    --     },
-    --     value_range = { -- net in MB
-    --        min = 0,
-    --        max = 0.6
-    --     },
-    --     -- withShadow = true
-    -- },
+    network_in = {
+        radius = 100,
+        startAngle = 0,
+        endAngle = 180,
+        meterType = 'network',
+        meterTypeSubType = 'in',
+        refreshEvery = 'second',
+        baseLineAlpha = 0.5,
+        stepsToBaseLineAlpha = 5,
+        minWidth = 4,
+        maxWidth = 40,
+        color = "#3288bd",
+        center = {
+            x = 200,
+            y = 520
+        },
+        value_range = { -- net in MB
+           min = 0,
+           max = 11
+        }
+    },
+    network_out = {
+        radius = 100,
+        startAngle = 180,
+        endAngle = 360,
+        meterType = 'network',
+        meterTypeSubType = 'out',
+        refreshEvery = 'second',
+        baseLineAlpha = 0.5,
+        stepsToBaseLineAlpha = 5,
+        minWidth = 4,
+        maxWidth = 40,
+        color = "#d53e4f",
+        center = {
+            x = 200,
+            y = 520
+        },
+        value_range = { -- net in MB
+           min = 0,
+           max = 0.6
+        },
+        -- withShadow = true
+    },
 }
 
 
